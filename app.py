@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def init():
-    return 'enter the following link : "http://localhost:5000/0" where 0 is id for first student'
+    return 'enter the following link : "https://basic-ismail.herokuapp.com/0" where 0 is id for first student'
 
 @app.route('/<int:id>')
 def index(id):
